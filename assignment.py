@@ -25,7 +25,7 @@ else:
 # up to 51 to 150 units 10
 # up to 151 to 250 untis 20
 
-unit = int(input("enter units"))
+unit = int(input("enter units: "))
 if(unit<= 50):
     bill= unit * 5
     print("your bill: ", bill)
@@ -44,7 +44,7 @@ if(year%4==0 and year% 100 !=0 or year%400==0):
 else:
     print("not leap year")
 # calculate student grade
-marks = int(input("enter total marks"))
+marks = int(input("enter total marks: "))
 if(marks<=500 and marks >=400 ):
   print("your grade A")
 elif(marks<=400 and marks>=300):
@@ -53,3 +53,13 @@ elif(marks>300 and marks<=200):
     print("your grade C")
 else:
     print("you are fail or invalid number")
+
+'''
+REMARKS: 
+
+    1. OVERALL EVERYTHING IS OKAY 
+    2. GRADE CHECKING CODE MUST ALSO INCLUDE A RANGE OF 600 - 700
+    3. DO ADD SPACES IN THE INPUT BOX WHEN PROMPTING FOR INPUTS
+
+FINAL SCORE: 9 / 10
+'''
