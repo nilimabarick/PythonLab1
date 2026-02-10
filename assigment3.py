@@ -7,7 +7,8 @@ fact = 1
 while(no > 1):
     fact = fact * no
     no = no - 1
-    print(fact)
+
+print(fact)
 
 # print multiplication table of a number
 
@@ -50,7 +51,19 @@ while(n>0):
     rem = n%10
     rev = (rev*10)+rem
     n = n//10
-    print("reverse is: ",rev)
+
+print("reverse is: ",rev)
+
+
+'''
+REMARKS :
+
+  * EXCEPT THE FIRST CODE ALL OF THEM WERE CORRECT.. JUST NEEDED 
+  TO ADJUST THE PRINT'S (I HAVE CORRECTED THEM )
+
+  * FINAL SCORE 8.5 / 10 
+
+'''
     
 
 
