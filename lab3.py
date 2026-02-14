@@ -63,13 +63,18 @@
         #break
 #TASK5 - VIP entry game
 
-while True :
-    code = int (input("please enter your code: "))
+#while True :
+    #code = int (input("please enter your code: "))
 
-    if code % 5 != 0:
-      print("you are not a VIP !")
-      print("get away...")
-    else:
-       print("Granted access..")
-       break
+    #if code % 5 != 0:
+      #print("you are not a VIP !")
+      #print("get away...")
+    #else:
+       #print("Granted access..")
+       #break
 #TASK6 - mario brother wooden forest lost game function
+
+
+    
+
+
