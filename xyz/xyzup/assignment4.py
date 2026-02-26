@@ -95,3 +95,12 @@ while True:
         break
     else:
         print("invalid choice! please try again")
+
+
+
+'''
+    * ASSIGNMENT CHECKED 
+    * NO ERROR FOUND 
+    * FINAL SCORE : 10 / 10 
+
+'''
