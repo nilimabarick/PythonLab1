@@ -15,3 +15,11 @@ if (user_age % 2 == 0):
     print("your age is even")
 else:
     print("your age is odd")
+
+
+    #print the folowing pattern:
+
+    #*
+    #* *
+    #* * *
+    #* * * *
