@@ -117,4 +117,51 @@ account1.withdraw(23000)
 account1.check_balance()
     
 
+'''
+THIS IS AN EXAMPLE OF HOW TWO OBJECTS INTERACT BUT TRY TO IMPLEMENT OF YOUR OWN VERSION 
+
+
+EXAMPLE CODE 
+
+class BankAccount:
+    def __init__(self, balance):
+        self.balance = balance
+
+    def deposit(self, amount):
+        self.balance += amount
+        print("Deposited:", amount)
+
+    def withdraw(self, amount):
+        if amount <= self.balance:
+            self.balance -= amount
+            print("Withdrawn:", amount)
+        else:
+            print("Insufficient balance")
+
+
+class Customer:
+    def __init__(self, name, account):
+        self.name = name
+        self.account = account  # interacting object
+
+    def perform_transaction(self):
+        print(f"{self.name} is making transactions...")
+        self.account.deposit(1000)
+        self.account.withdraw(500)
+        print("Remaining Balance:", self.account.balance)
+
+
+# Creating objects
+account1 = BankAccount(2000)
+customer1 = Customer("Indra", account1)
+
+# Interaction happens here
+customer1.perform_transaction()
+
+'''
+
+'''
+ASSIGNMENT CHECKED AND UPDATED 
+'''
+
     

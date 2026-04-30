@@ -113,4 +113,7 @@ s1.set_marks(95)
 print("Update Name: ", s1.get_name())
 print("Update Marks: ", s1.get_marks())
 
+'''
+LIBRARY MANAGEMT SYSTEM DEMO HAS BEEN SHOWN ON THE RECENT LABS , PLEASE CHECK IT OUT 
 
+'''
