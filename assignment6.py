@@ -44,3 +44,23 @@ for name, marks in student.items():
     for subject, mark in marks.items():
       print(subject,":", mark)
     print()
+
+'''
+   SORT DICTONARY BY VALUES 
+
+   sorted_dict = dict(sorted(student.items(), key=lambda item: item[1]))
+
+   MERGE TWO DICT WITHOUT BUILT IN METHODS 
+
+   merged = {}
+
+   for key in d1:
+    merged[key] = d1[key]
+
+   for key in d2:
+    merged[key] = d2[key]
+
+print(merged)
+
+
+'''
