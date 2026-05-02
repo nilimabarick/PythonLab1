@@ -51,3 +51,9 @@ if(len(str1) == len(str2)):
 else:
     print(str1 + "and" + str2 + "are not anagrams.")
 
+
+'''
+CHECKED AND COMPLETED
+
+'''
+
