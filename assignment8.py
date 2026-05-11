@@ -10,49 +10,49 @@ file.write("Their feeling remain unspoken, and over time those emotions comes ou
 file.close()
 
 
-# file.close()
+file.close()
 
 
 # Read content of a file
 
-# file = open("content.txt", "r")
-# content = file.read()
-# print(content)
-# file.close()
+file = open("content.txt", "r")
+content = file.read()
+print(content)
+file.close()
 
 
 # Count number of a lines in a file
-# file = open("content.txt", "r")
-# lines = file.readlines()
-# count = len(lines)
-# print("Total number of lines: ", count)
-# file.close()
+file = open("content.txt", "r")
+lines = file.readlines()
+count = len(lines)
+print("Total number of lines: ", count)
+file.close()
 
 
 # copy contents from one file to onther
-# with open("content.txt", "r") as source:
-#     data = source.read()
+with open("content.txt", "r") as source:
+    data = source.read()
 
-# with open("copy.txt", "w") as target:
-#     target.write(data)
+with open("copy.txt", "w") as target:
+    target.write(data)
 
 # Find word frequency from a text file 
 
 
-# with open("content.txt", "r") as file:
-#     text = file.read()
+with open("content.txt", "r") as file:
+    text = file.read()
 
-# words = text.lower().split()
-# frequency = {}
+words = text.lower().split()
+frequency = {}
 
-# for word in words:
-#     if word in frequency:
-#         frequency[word] +=1
-#     else:
-#         frequency[word] = 1
+for word in words:
+    if word in frequency:
+        frequency[word] +=1
+    else:
+        frequency[word] = 1
 
-# for word, count in frequency.items():
-#     print(word, ":", count)
+for word, count in frequency.items():
+    print(word, ":", count)
 
 # File based student record management system 
 
@@ -100,3 +100,10 @@ while True:
 
     else:
         print("Invalid Choice")
+
+'''
+    ASSIGNMENT 8 CHECKED 
+    SCORE : 10 / 10
+    
+
+'''
